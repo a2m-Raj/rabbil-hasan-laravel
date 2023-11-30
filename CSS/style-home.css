@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    /* font-family: 'Oswald', sans-serif; */
+}
+.intro-text{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: #636363;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+
+.card-border{
+    box-shadow: 0px 0px 1px rgb(133, 221, 133);
+    border-radius: 5px;
+}
+.card-border:hover {
+    box-shadow: 0px 0px 2px rgb(117, 207, 117); 
+}
+
+.btn{
+    background-color: #ff2D20;
+}
+.btn:hover{
+    background-color: rgb(168, 27, 27);
+}
+
+/* Header section */
+.header{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 0px 1px rgb(186, 191, 186);
+    z-index: 9;
+}
+.header img{
+    width: 10%;
+    float: left;
+    padding: 0 20px;
+}
+.header ul{
+    padding: 15px 5px;
+}
+.header ul li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+.header ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0px;
+    font-size: 1rem;
+    color: #5c5b5b;
+    letter-spacing: 1px;
+}
+.header ul li a:hover{
+    color: #ff2D20;
+}
+
+/* Container section */
+.poster{
+    background-color: #f9f9f9;
+    clear: both;
+    padding: 35px 0;
+    display: flex;
+}
+.poster-text{
+    width: 60%;
+    text-align: center;
+    padding-top: 100px;
+}
+.poster-text h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+}
+.poster-text p{
+    font-size: 1rem;
+    padding: 2px;
+}
+.poster-text a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ff2D20;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 5px 60px;
+    margin-top: 10px;
+}
+.poster-text a:hover{
+    background-color: rgb(168, 27, 27);
+}
+.poster-img{
+    width: 40%;
+    padding-top: 30px;
+}
+.poster-img img{
+    width: 60%;
+}
+
+
+/* Content section */
+.content{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+    padding: 50px 0;
+}
+.content-card{
+    padding: 20px 15px;
+    margin: 8px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px rgb(133, 221, 133);
+}
+.content-card:hover{
+    box-shadow: 0px 0px 2px rgb(117, 207, 117);
+}
+.content-card .card-img img{
+    width: 20%;
+}
+.content-card .card-text{
+    padding: 5px;
+}
+.content-card .card-text h3{
+    font-size: 1.4rem;
+    padding: 5px;
+}
+.content-card .card-text p{
+    color: #5c5b5b;
+    padding-bottom: 10px;
+}
+
+/* Video section */
+.banner-body{
+    width: 70%;
+    margin: 0 auto;
+    padding: 70px;
+    text-align: center;
+}
+.banner-btn{
+    
+}
+.banner-btn img{
+    width: 7%;
+
+}
+.banner-text{}
+.banner-text h3{
+    font-size: 1.4rem;
+    padding: 10px;
+}
+.banner-text p{
+    color: #5c5b5b;
+}
+
+/* Payment section */
+.payment{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+}
+.payment-bkash{
+
+}
+.payment-img{}
+.payment-img img{
+    width: 25%;
+}
+.payment-text{}
+.payment-text p{
+    padding: 10px 0;
+}
+.payment-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+.payment-card .card-body{
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 1px rgb(133, 221, 133);
+}
+.payment-card .card-body:hover{
+    box-shadow: 0px 0px 2px rgb(117, 207, 117);
+}
+.payment-card .card-body h4{
+    font-size: 1.5rem;
+}
+.payment-card .card-body p{}
+
+.payment-subs{
+    padding: 20px;
+    height: 200px;
+}
+.subs-card{
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.subs-img{
+    width: 100%;
+}
+.subs-img img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.subs-card a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px 0 30px 0;
+}
+
+/* Video section */
+.video{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+.video-text{
+    padding: 40px 0;
+}
+.video h2{}
+.video p{}
+.video-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.video-card{
+    margin: 5px;
+    width: 100%;
+}
+.video-card h4{
+    padding-bottom: 50px;
+}
+.video-card p{
+    padding-bottom: 50px;
+}
+.video-img img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.video-img-2{
+    padding: 10px;
+}
+.video-img-2 img{
+    width: 12%;
+
+}
+
+.video-btn{
+    
+}
+.video-btn .v-btn{
+    background-color: #ff2D20;
+    padding: 10px 15px;
+    color: #fff;
+    margin: 40px 0;
+}
+.video-btn .v-btn:hover{
+    background-color: rgb(168, 27, 27);
+}
+
+/* Product section */
+.product{
+    padding: 40px 0;
+}
+.product-title{
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5rem;
+}
+.product-title b{
+    font-size: 1.2rem;
+}
+.product-title p{}
+
+.product-cards{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.p-card{
+    width: 24%;
+    margin: 10px 5px;
+    padding: 20px;
+}
+.p-card-img{}
+.p-card-img img{
+    width: 20%;
+}
+.product #asp{
+    height: 40px;
+}
+.p-card h5{
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/* Contacts section */
+.contacts-sec{
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+.contact{
+    display: flex;
+    padding: 20px 0;
+}
+.contact-text{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.contact .text-body{
+    width: 24%;
+    margin: 10px;
+    
+}
+.contact .text-titile{
+    
+}
+.contact .text-titile h3{
+    padding: 10px 0;
+}
+.contact .text-titile p{
+    padding: 5px 0;
+}
+.hr{
+    margin: 10px 0;
+}
+.contact .text-titile p a{
+    text-decoration: none;
+    color: #5c5b5b;
+}
+.contacts-sec .p-icon{
+    padding-right: 5px;
+}
+
+.contact .hover-text:hover{
+    color: red;
+}
+
+/* Footer section */
+footer{
+    background-color: #ff2D20;
+    text-align: center;
+    padding: 30px 0;
+}
+footer p{
+    color: #fff;
+}
